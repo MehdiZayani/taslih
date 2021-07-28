@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+          "_id":"Meuble cc",
+          "title":"Meuble cc",
+          "image":"https://www.ikea.com/fr/fr/images/products/brimnes-banc-tv-noir__0851278_pe725293_s5.jpg?f=s",
+          "d":"Description of product Meuble cc",
+          "dp": "ehrrthr",
+          "price": 19000,
+          "availableSizes":["S","XL","ALL"]
+        },
+        {
+            "_id":"EKET",
+            "title":"EKET",
+            "image":"https://www.ikea.com/fr/fr/images/products/fjaellbo-banc-tv-noir__0850235_pe616397_s5.jpg?f=xxs",
+            "d":"Description of product puma",
+            "dp": "azgrezrg",
+            "price": 144,
+            "availableSizes":["S","XL","ALL"]
+          },
+          {
+            "_id":"adidas",
+            "title":"title of product adidas",
+            "image":"https://www.ikea.com/fr/fr/images/products/besta-banc-tv-avec-portes-blanc-lappviken-blanc__0723576_pe734034_s5.jpg?f=xxs",
+            "d":"Description of product adidas",
+            "dp": "gagerzze",
+            "price": 195,
+            "availableSizes":["XL","L","ALL"]
+          },
+          {
+            "_id":"HAVSTA",
+            "title":"HAVSTA",
+            "image":"https://www.ikea.com/fr/fr/images/products/kallax-lack-combinaison-de-rangement-tablette-effet-chene-blanchi__0956119_pe804532_s5.jpg?f=xxs",
+            "d":"Description of product Nike",
+            "dp": "zehgrtgsr",
+            "price": 159,
+            "availableSizes":["M","S","ALL"]
+          }
+    ]
+}
