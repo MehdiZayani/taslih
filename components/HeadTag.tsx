@@ -46,7 +46,11 @@ const HeadTag: React.FC<PageTitleProps> = ({ title }) => {
 			<meta name="twitter:image" content="link mt3 taswira mt3 twitter" />
 			<meta name="twitter:domain" content="domaine name mt3 site" />
 			{/* OpenGraph tags */}
+<<<<<<< HEAD
 			<meta property="og:title" content="Lucci Design" />
+=======
+			<meta property="og:title" content="title mt3 site" />
+>>>>>>> ba1e63d091686e7686557c5274a20cbd11885980
 			<meta
 				property="og:url"
 				content={`https://linkmt3site${title != "Home" ? "/" + title : ""}`}

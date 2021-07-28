@@ -7,6 +7,7 @@ export default function nav() {
 	const titleweb = "Lucci Design";
 	return (
 		<div className="Navbara">
+<<<<<<< HEAD
 			<nav className="flex flex-warp justify-between p-8 sticky top-0 h-8">
 				<Link href="../homepage/homepage">
 					<a>
@@ -68,6 +69,50 @@ export default function nav() {
 						<a>
 							<FontAwesomeIcon icon={faShoppingCart} className="mr-4"/>
 						</a>
+=======
+			<nav>
+				<Link href="../homepage/homepage">
+					<a>
+						<h1>{titleweb}</h1>
+					</a>
+				</Link>
+
+				{/* salla7a kif magadithe ena lfou9 !! */}
+
+				<div>
+					<Link href="/">
+						<p>Cuisine</p>
+					</Link>
+					<Link href="/">
+						<p>Rangement</p>
+					</Link>
+					<Link href="/">
+						<p>Chaises</p>
+					</Link>
+					<Link href="/">
+						<p>Tables</p>
+					</Link>
+					<Link href="/salon">
+						<p>Salon</p>
+					</Link>
+					<Link href="/">
+						<p>Décoration</p>
+					</Link>
+					<Link href="/">
+						<p>Autres</p>
+					</Link>
+					<Link href="/">
+						<p>Notre vision</p>
+					</Link>
+					<form>
+						<input type="search" placeholder="Rechercher" />
+					</form>
+					<Link href="../index">
+						<FontAwesomeIcon icon={faUserCircle} />
+					</Link>
+					<Link href="../index">
+						<FontAwesomeIcon icon={faShoppingCart} />
+>>>>>>> ba1e63d091686e7686557c5274a20cbd11885980
 					</Link>
 				</div>
 			</nav>
